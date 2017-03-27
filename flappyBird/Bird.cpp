@@ -35,6 +35,7 @@ void Bird::jump() {
 	//bird.setPosition(sf::Vector2f(cor_x, cor_y));
 }
 
+
 void Bird::a_gravity() {
 	while (true) {
 		this->vel_y += this->acceleration;
